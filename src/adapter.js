@@ -156,7 +156,6 @@ class TwigAdapter extends Fractal.Adapter {
         /* eslint-disable complexity */
         // Goes throught the whole context data tree and turns all includes into a desired data.
         function processIncludes(destinationDataNode) {
-            console.log("PI................7")
             if (typeof destinationDataNode === 'object') {
 
                 for (let propertyName in destinationDataNode) {
